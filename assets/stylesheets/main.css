@@ -281,7 +281,79 @@ body {
 	margin: -4px 0 12px 0;
 	vertical-align: top;
   }
+  .img2 {
+	padding-left: 150px;  
+	width: 400%
+  }
   .frame {
 	padding-left: 150px;  
 	padding-bottom: 50px;
   }
+
+  .video {
+	padding-left: 150px;  
+	padding-bottom: 50px;  
+  }
+
+  #container {
+	width: 80%;
+	height: 450px;
+	position: relative;
+	background-color: #eeeeee;
+}
+
+.pic {
+	width: 250px;
+}
+
+#container img:hover {
+	box-shadow: 15px 15px 20px rgba(50, 50, 50, 0.4);
+	transform: rotate(0deg) scale(1.20);
+	-webkit-transform: rotate(0deg) scale(1.20);
+	z-index: 2;
+}
+
+#container img {
+	padding: 10px 10px 15px;
+	background: white;
+	border: 1px solid #dddddd;
+	box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.4);
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	position: absolute;
+	z-index: 1;
+}
+
+.pic1 {
+	left: 400px;
+	top: 0;
+	transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+}
+
+.pic2 {
+	left: 200px;
+	top: 0;
+	transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+}
+
+.pic3 {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+}
+
+.pic4 {
+	bottom: 0;
+	left: 500px;
+	transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+}
