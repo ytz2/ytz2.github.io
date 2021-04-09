@@ -359,10 +359,12 @@ body {
 }
 
 table, th, td {
-	border: 1px solid black;
+	border: 1px solid rgb(22, 19, 19);
+	margin: auto;
+	padding: 3px;
 }
 table {
-	margin-left: 50px;
+	margin-left: 0;
 }
 center {
 	margin-left: auto;
